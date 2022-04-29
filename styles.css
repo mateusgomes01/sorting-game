@@ -1,0 +1,21 @@
+* {
+
+}
+
+.game-board {
+	border: 1px solid red;
+}
+
+.game-board .card-box {
+	display: inline-block;
+	text-align: center;
+	border: 1px solid green;
+	margin: 5px;
+	width: 100px;
+	height: 100px;
+}
+
+.card-box:hover {
+	background-color: lightgreen;
+	cursor: grab;
+}
